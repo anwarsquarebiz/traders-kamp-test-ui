@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.body-background {
+  background-color: #f6f6fc;
+}
+
+nav {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0 5%;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.logo {
+  float: left;
+  width: 199px;
+  max-height: 100%;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #dc2626;
+  color: #ffffff;
+  border-radius: 25px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width:600px) {
+  .btn-danger {
+    /* background-color: #dc2626;
+    color: #ffffff;
+    border-radius: 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 10px; */
+    display: none;
+  }
+}
+
+#nav-toggle {
+  position: absolute;
+  top: -100px;
+}
+
+.icon-burger {
+  display: none;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.icon-burger .line {
+  width: 30px;
+  height: 5px;
+  background-color: #282a74;
+  margin: 5px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width:600px) {
+  .hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #332a7c;
+    margin-bottom: 3px;
+    list-style-type:none;
+  }
+
+  .icon-burger {
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .icon-burger .line {
+    width: 30px;
+    height: 5px;
+    background-color: #282a74;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+}
+
+.sidenav {
+  width: 102px;
+  height: 524px;
+  background-color: #332a7c;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidenav-div {
+    display: none;
+    background-color: blue;
+  }  
+}
+
+
+/* .sidenav:hover {
+  width: 100%;
+  height: 524px;
+  background-color: #332a7c;
+  border-radius: 25px;
+  padding-left: 20px;
+  text-align: left;
+  transition: all 0.3s ease-in-out 0s;
+} */
+
+.sidenavlogo {
+  max-height: 35px;
+  font-size: 35px;
+  margin-top: 45px;
+}
+
+.sidenavlogo:hover {
+  height: 35px;
+  margin-top: 45px;
+  /* transform: scale(1.2); */
+  transform: rotate(20deg);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.createcontestbtn {
+  background-color: #c8cbe7;
+  color: #544F89;
+  width: fit-content;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  border-radius: 100px;
+  padding-right:20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.createcontestbtn img {
+  height: 50px;
+}
+
+.createcontestbtn img:hover {
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.createcontestbtn img:active {
+  transform:scale(1.5);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.comp {
+  margin-top: 53px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: 5px solid #A1A3EB;
+  border-radius: 25px;
+}
+
+.comp .pair {
+  color: #544F89;
+  font-size: 40px;
+  font-weight:500;
+}
+
+.comp .comp-headers {
+  color: #544F89;
+  font-size: 25px;
+}
+
+.comp .comp-text {
+  color: #544F89;
+  font-size: 25px;
+  font-weight:bold;
+}
+
+.comp .spot-progress-bar {
+  background-color: #E0E0E0;
+  height: 26px;
+  border-radius: 25px;
+  padding: 0px;
+}
+
+.comp .spot-progress-completion {
+  background-color: #F25767;
+  height: 26px;
+  border-radius: 25px;
+}
+
+.comp .btn-danger {
+  background-color: #332A7C;
+  border: #332A7C;
+}
+
+@media only screen and (max-width: 600px) {
+  .comp {
+    margin-top: 53px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 5px solid #A1A3EB;
+    border-radius: 25px;
+  }
+  
+  .comp .pair {
+    color: #544F89;
+    font-size: 30px;
+    font-weight:500;
+  }
+  
+  .comp .comp-headers {
+    color: #544F89;
+    font-size: 15px;
+  }
+  
+  .comp .comp-text {
+    color: #544F89;
+    font-size: 15px;
+    font-weight:bold;
+  }
+  
+  .comp .spot-progress-bar {
+    background-color: #E0E0E0;
+    height: 26px;
+    border-radius: 25px;
+    padding: 0px;
+  }
+  
+  .comp .spot-progress-completion {
+    background-color: #F25767;
+    height: 26px;
+    border-radius: 25px;
+  }
+  
+  .comp .btn-danger {
+    background-color: #332A7C;
+    border: #332A7C;
+  }
+}
