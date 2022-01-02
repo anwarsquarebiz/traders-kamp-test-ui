@@ -36,7 +36,7 @@ nav {
 }
 
 @media only screen and (max-width:600px) {
-  .btn-danger {
+  .btn-nav {
     /* background-color: #dc2626;
     color: #ffffff;
     border-radius: 25px;
