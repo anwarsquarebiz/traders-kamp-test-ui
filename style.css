@@ -35,7 +35,7 @@ nav {
   margin-left: 10px;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   .btn-nav {
     /* background-color: #dc2626;
     color: #ffffff;
@@ -70,13 +70,13 @@ nav {
   transition: all 0.3s ease-in-out;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
   .hamburger-menu {
     width: 30px;
     height: 3px;
     background-color: #332a7c;
     margin-bottom: 3px;
-    list-style-type:none;
+    list-style-type: none;
   }
 
   .icon-burger {
@@ -94,7 +94,25 @@ nav {
     border-radius: 3px;
     transition: all 0.3s ease-in-out;
   }
+}
 
+.dashboard-navbar {
+  height: 50px;
+  background-color: #332a7c;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  display: flex;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.dashboard-navbar-active {
+  font-weight: bolder;
+}
+
+.dashboard-navbar-item {
+  margin-left: 30px;
 }
 
 .sidenav {
@@ -110,9 +128,8 @@ nav {
   .sidenav-div {
     display: none;
     background-color: blue;
-  }  
+  }
 }
-
 
 /* .sidenav:hover {
   width: 100%;
@@ -140,7 +157,7 @@ nav {
 
 .createcontestbtn {
   background-color: #c8cbe7;
-  color: #544F89;
+  color: #544f89;
   width: fit-content;
   font-family: Poppins;
   font-style: normal;
@@ -148,7 +165,7 @@ nav {
   font-size: 20px;
   line-height: 40px;
   border-radius: 100px;
-  padding-right:20px;
+  padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -163,7 +180,7 @@ nav {
 }
 
 .createcontestbtn img:active {
-  transform:scale(1.5);
+  transform: scale(1.5);
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -171,9 +188,9 @@ nav {
   margin-top: 25px;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-left: 50px;
-  padding-right: 50px;
-  border: 5px solid #A1A3EB;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 5px solid #a1a3eb;
   border-radius: 25px;
 }
 
@@ -182,38 +199,38 @@ nav {
 }
 
 .comp .pair {
-  color: #544F89;
+  color: #544f89;
   font-size: 32px;
-  font-weight:500;
+  font-weight: 500;
 }
 
 .comp .comp-headers {
-  color: #544F89;
+  color: #544f89;
   font-size: 16px;
 }
 
 .comp .comp-text {
-  color: #544F89;
+  color: #544f89;
   font-size: 16px;
   font-weight: bold;
 }
 
 .comp .spot-progress-bar {
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   height: 16px;
   border-radius: 25px;
   padding: 0px;
 }
 
 .comp .spot-progress-completion {
-  background-color: #F25767;
+  background-color: #f25767;
   height: 16px;
   border-radius: 25px;
 }
 
 .comp .btn-danger {
-  background-color: #332A7C;
-  border: #332A7C;
+  background-color: #332a7c;
+  border: #332a7c;
 }
 
 @media only screen and (max-width: 600px) {
@@ -223,42 +240,42 @@ nav {
     padding-bottom: 24px;
     padding-left: 50px;
     padding-right: 50px;
-    border: 5px solid #A1A3EB;
+    border: 5px solid #a1a3eb;
     border-radius: 25px;
   }
-  
+
   .comp .pair {
-    color: #544F89;
+    color: #544f89;
     font-size: 30px;
-    font-weight:500;
+    font-weight: 500;
   }
-  
+
   .comp .comp-headers {
-    color: #544F89;
+    color: #544f89;
     font-size: 15px;
   }
-  
+
   .comp .comp-text {
-    color: #544F89;
+    color: #544f89;
     font-size: 15px;
-    font-weight:bold;
+    font-weight: bold;
   }
-  
+
   .comp .spot-progress-bar {
-    background-color: #E0E0E0;
+    background-color: #e0e0e0;
     height: 26px;
     border-radius: 25px;
     padding: 0px;
   }
-  
+
   .comp .spot-progress-completion {
-    background-color: #F25767;
+    background-color: #f25767;
     height: 26px;
     border-radius: 25px;
   }
-  
+
   .comp .btn-danger {
-    background-color: #332A7C;
-    border: #332A7C;
+    background-color: #332a7c;
+    border: #332a7c;
   }
 }
