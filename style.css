@@ -94,7 +94,7 @@ nav {
     border-radius: 3px;
     transition: all 0.3s ease-in-out;
   }
-  
+
 }
 
 .sidenav {
@@ -168,42 +168,46 @@ nav {
 }
 
 .comp {
-  margin-top: 53px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-top: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   padding-left: 50px;
   padding-right: 50px;
   border: 5px solid #A1A3EB;
   border-radius: 25px;
 }
 
+.comp .img {
+  height: 40px;
+}
+
 .comp .pair {
   color: #544F89;
-  font-size: 40px;
+  font-size: 32px;
   font-weight:500;
 }
 
 .comp .comp-headers {
   color: #544F89;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .comp .comp-text {
   color: #544F89;
-  font-size: 25px;
-  font-weight:bold;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .comp .spot-progress-bar {
   background-color: #E0E0E0;
-  height: 26px;
+  height: 16px;
   border-radius: 25px;
   padding: 0px;
 }
 
 .comp .spot-progress-completion {
   background-color: #F25767;
-  height: 26px;
+  height: 16px;
   border-radius: 25px;
 }
 
