@@ -231,6 +231,7 @@ nav {
 .comp .btn-danger {
   background-color: #332a7c;
   border: #332a7c;
+  margin-left: 0px;
 }
 
 @media only screen and (max-width: 600px) {
